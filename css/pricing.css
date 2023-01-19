@@ -1765,7 +1765,7 @@ span#txtCaptchaDiv3 {
     font-weight: 600;
     font-size: 52px !important;
     line-height: 115%;
-    color: #000000;
+    color: #252425;
     text-align: center;
 }
 
@@ -2353,13 +2353,13 @@ span#txtCaptchaDiv3 {
 }
 
 .calcprice {
-    color: #1E1E1E;
+    color: #252425;
     font-size: 80px !important;
     font-weight: bolder;
 }
 
 .inrsym {
-    color: #1E1E1E;
+    color: #252425;
     font-size: 30px !important;
     font-weight: 700;
 }
@@ -2371,7 +2371,7 @@ span#txtCaptchaDiv3 {
 }
 
 .accordion1 {
-    color: #1E1E1E;
+    color: #252425;
     cursor: pointer;
     padding: 18px;
     width: 100%;
