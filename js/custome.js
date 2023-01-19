@@ -7,38 +7,38 @@ function estimate() {
     var cost = 0;
     console.log(selectedService);
 
-    if (selectedService == 1) {
+    if (selectedService == 1 || selectedService == 10) {
         cost = 0.5 * words;
         cost = parseFloat(cost).toFixed(2);
         document.getElementById("cost").innerHTML = "<span style='font-size:16px;padding-bottom:7.99px;color:#252425;display:block;'>Your Price</span>" + cost + "" + "<span class='inrsym'>INR</span>";
         document.getElementById('form1').style.display = '';
     }
-    else if (selectedService == 2 || selectedService == 5 || selectedService == 14) {
-        cost = 0.5 * words;
+    else if (selectedService == 2 || selectedService == 4) {
+        cost = 1 * words;
         cost = parseFloat(cost).toFixed(2);
         document.getElementById("cost").innerHTML = "<span style='font-size:16px;padding-bottom:7.99px;color:#252425;display:block;'>Your Price</span>" + cost + "" + "<span class='inrsym'>INR</span>";
         document.getElementById('form1').style.display = '';
     }
-    else if (selectedService == 4) {
-        cost = 10 * qty;
+    else if (selectedService == 3 || selectedService == 5 || selectedService == 6 || selectedService == 7) {
+        cost = 2 * words;
         cost = parseFloat(cost).toFixed(2);
         document.getElementById("cost").innerHTML = "<span style='font-size:16px;padding-bottom:7.99px;color:#252425;display:block;'>Your Price</span>" + cost + "" + "<span class='inrsym'>INR</span>";
         document.getElementById('form1').style.display = '';
     }
 
-    else if (selectedService == 6 || selectedService == 9) {
-        cost = 0.080 * words;
+    else if (selectedService == 4) {
+        cost = 1 * words;
         cost = parseFloat(cost).toFixed(2);
         document.getElementById("cost").innerHTML = "<span style='font-size:16px;padding-bottom:7.99px;color:#252425;display:block;'>Your Price</span>" + cost + "" + "<span class='inrsym'>INR</span>";
         document.getElementById('form1').style.display = '';
     }
-    else if (selectedService == 10 || selectedService == 11 || selectedService == 13) {
-        cost = 0.120 * words;
+    else if (selectedService == 8 || selectedService == 9) {
+        cost = 3 * words;
         cost = parseFloat(cost).toFixed(2);
         document.getElementById("cost").innerHTML = "<span style='font-size:16px;padding-bottom:7.99px;color:#252425;display:block;'>Your Price</span>" + cost + "" + "<span class='inrsym'>INR</span>";
         document.getElementById('form1').style.display = '';
     }
-    else if (selectedService == 7 || selectedService == 8 || selectedService == 30 || selectedService == 31) {
+    else if (selectedService == 7 || selectedService == 30 || selectedService == 31) {
         cost = 0.080 * words;
         cost = parseFloat(cost).toFixed(2);
         document.getElementById("cost").innerHTML = "<span style='font-size:16px;padding-bottom:7.99px;color:#252425;display:block;'>Your Price</span>" + cost + "" + "<span class='inrsym'>INR</span>";
@@ -80,12 +80,6 @@ function estimate() {
         document.getElementById('form1').style.display = '';
     }
 
-    else if (selectedService == 3) {
-        cost = 100 * qty;
-        cost = parseFloat(cost).toFixed(2);
-        document.getElementById("cost").innerHTML = "<span style='font-size:16px;padding-bottom:7.99px;color:#252425;display:block;'>Your Price</span>" + cost + "" + "<span class='inrsym'>INR</span>";
-        document.getElementById('form1').style.display = '';
-    }
 
     else if (selectedService == 15) {
         cost = 37.5 * qty;
