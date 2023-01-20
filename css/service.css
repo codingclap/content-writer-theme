@@ -1968,7 +1968,7 @@ span#txtCaptchaDiv3 {
     font-size: 14px !important;
     font-weight: 500;
     line-height: 30px;
-    margin: 0 auto;
+	margin-right: 15px;
     border-radius: 0px;
     font-family: 'inter', sans-serif;
 }
