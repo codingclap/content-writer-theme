@@ -627,6 +627,125 @@
 		<link rel="stylesheet" href="css/owl.carousel.min.css">
 		<link rel="stylesheet" href="css/owl.theme.min.css">
 
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content"
+				style="border-radius: 0px;background-image: url(img/maintopbg.png);background-repeat: no-repeat;background-color: #ffff;background-size: cover;">
+				<span class="close">&times;</span>
+				<section class="contact-page" style="padding-top: 0px;padding-bottom:0px;margin-top: 10px;">
+					<div class="">
+						<div class="section-title text-center">
+							<h3 class="section-head text-center wow fadeInUp ctblue modmeh3" data-animation="fadeInUp"
+								data-animation-delay="500" style="font-weight: 700;margin-bottom:30px;color:#252425;">
+								Talk
+								with our Experts</h3>
+						</div>
+						<div class="row">
+							<div class="col-xl-12">
+								<div class="contact-page__form">
+									<form action="send-expert" method='post' name='myForm1' id='demo-form1'
+										class="wow fadeInRight conform" data-animation="fadeInRight"
+										data-animation-delay="500" style="padding-left: 40px;padding-right: 40px;">
+										<div class="col-lg-6 col-xs-6">
+											<div class="input-group fullmobcen1" style="float: left;">
+												<label class="text-left flowleft" style="margin-top: 0px;">Your
+													Name*</label>
+												<input type="text" name="name" class="form-control"
+													placeholder="e.g. Laksh Bhagat" style="margin-right: 2%;width: 98%;"
+													required>
+											</div>
+										</div>
+										<div class="col-lg-6 col-xs-6">
+											<div class="input-group fullmobcen1" style="float: left;">
+												<label class="text-left flowleft" style="margin-top: 0px;">Your
+													Company*</label>
+												<input type="text" name="cname" class="form-control"
+													placeholder="e.g. Content Whale"
+													style="margin-right: 2%;width: 98%;" required>
+											</div>
+										</div>
+										<div class="col-lg-6 col-xs-6">
+											<div class="input-group fullmobcen1" style="float: left;">
+												<label class="text-left flowleft" style="margin-top: 0px;">Your
+													Email*</label>
+												<input type="email" name="email" class="form-control"
+													placeholder="e.g. abc@xyz.com" style="margin-right: 2%;width: 98%;"
+													required>
+											</div>
+										</div>
+										<div class="col-lg-6 col-xs-6">
+											<div class="input-group fullmobcen1" style="float: left;">
+												<label class="text-left flowleft" style="margin-top: 0px;">Your Phone
+													No*</label>
+												<input type="text" name="phone" class="form-control"
+													placeholder="e.g. +91 8286430156"
+													style="margin-right: 2%;width: 98%;" required>
+											</div>
+										</div>
+										<div class="col-lg-12 col-xs-12">
+											<div class="input-group fullmobcen1" style="float: left;">
+												<label class="text-left flowleft"
+													style="margin-top: 0px;">Service*</label>
+												<select name="service" id="chooseselect" class="form-control"
+													style="height:42px;padding-left: 8px;color: #818181cc;">
+													<option value="0">Choose Your Requirement</option>
+													<option value="1">Articles and blogs</option>
+													<option value="2">Website content</option>
+													<option value="3">Emailers</option>
+													<option value="4">FAQ</option>
+													<option value="5">Press release</option>
+													<option value="6">Product description</option>
+													<option value="7">Case study</option>
+													<option value="8">White Paper</option>
+													<option value="9">Newsletter</option>
+													<option value="10">Magazine article</option>
+													<option value="11">Thought Leadership Articles</option>
+													<option value="12">Editing and proofreading</option>
+													<option value="13">Policy writing</option>
+													<option value="14">Translation</option>
+													<option value="15">LinkedIn Post</option>
+													<option value="16">User Manual</option>
+													<option value="17">Quora</option>
+													<option value="18">Ebook</option>
+													<option value="19">Report writing</option>
+													<option value="20">Business proposal</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="col-lg-12 col-xs-12">
+											<label class="text-left flowleft" style="margin-top: 0px;">Any additional
+												information*</label>
+											<textarea class="input-group" name="message"
+												style="border-radius: 8px;height: 80px;"></textarea>
+										</div>
+										<div class="col-lg-3 col-xs-3"></div>
+										<div class="col-lg-6 col-xs-6">
+											<div class="input-group form-buttons text-center">
+												<span class="input-group-btn text-left fullmobcen pcc">
+													<!--<input type="submit" class="bluebtnpc mp10" value="Submit"  style="margin-top: 10px;" id="">-->
+													<button class="bluebtnpc mp10 g-recaptcha"
+														data-sitekey="6Leoqf4jAAAAALWlnJasMtXwjuGbtmexBijqRyr0"
+														data-callback='onSubmit1' data-action='submit'
+														style="margin-top: 10px;">Submit</button>
+												</span>
+											</div>
+										</div>
+										<div class="col-lg-3 col-xs-3"></div>
+
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!--Modal End--->
+
+
 		<div class="wrapper">
 			<div class="major headbg">
 				<header>
@@ -916,7 +1035,7 @@
 						</div>
 						<div class="col-lg-12 col-xs-12">
 							<br>
-							<a id="myBtn2" class="standardbtn">View Samples</a>
+							<a id="#" class="standardbtn">View Samples</a>
 						</div>
 					</div>
 				</section>
@@ -934,7 +1053,8 @@
 								<div class="col-lg-3 col-xs-3"
 									style="height:225px;text-align: left;margin: 0px;border-radius:8px;padding:18px;filter: drop-shadow(1px 1px 5px #eeedeb);background-color:white;padding-top:15px;margin: 10px;width: 23%;">
 									<img src="images/google.svg" width="38">
-									<h4 style="font-weight:600;font-size:18px;margin-top:10px;margin-bottom:10px;color:#252425">
+									<h4
+										style="font-weight:600;font-size:18px;margin-top:10px;margin-bottom:10px;color:#252425">
 										Content
 										ranking higher on search engines</h4>
 									<p style="font-weight:400;font-size:15px;line-height: 20px;color:#7A7A7A;">In order
@@ -954,7 +1074,8 @@
 								<div class="col-lg-3 col-xs-3"
 									style="height:225px;text-align: left;margin: 0px;border-radius:8px;padding:18px;filter: drop-shadow(1px 1px 5px #eeedeb);background-color:white;padding-top:15px;margin: 10px;width: 23%;">
 									<img src="images/servicess3.svg" width="38">
-									<h4 style="font-weight:600;font-size:18px;margin-top:10px;margin-bottom:10px;color:#252425">
+									<h4
+										style="font-weight:600;font-size:18px;margin-top:10px;margin-bottom:10px;color:#252425">
 										Well-planned and thoroughly</h4>
 									<p style="font-weight:400;font-size:15px;line-height: 20px;color:#7A7A7A;">Our
 										professional
@@ -985,14 +1106,14 @@
 			<div class="ctact-container">
 				<section class="ctact">
 					<div class="container">
-						<div class="row"> 
+						<div class="row">
 							<div class="col-lg-12 col-xs-12">
 								<h3 class="text-center wow fadeInUp ctatitle" data-animation="fadeInUp"
 									data-animation-delay="500">
 									Need assistance with something</h3>
 								<p class="ctap">Speak with our expert right away to receive free service-related advice.
 								</p>
-								<a id="myBtn3" class="bluebtn">Talk to an expert</a>
+								<a id="myBtn" class="bluebtn">Talk to an expert</a>
 							</div>
 						</div>
 					</div>
@@ -1223,7 +1344,7 @@
 								to Whale-up?</h2>
 							<p class="sep401 footext">To make your experience with us exceptional, we have a specialized
 								team working for you, various pricing choices, and a dedicated Account Manager.</p>
-							<a id="myBtn4" class="bluebtn">Account Manager</a> <a id="myBtn5" class="standardbtn">Get
+							<a id="myBtn1" class="bluebtn">Account Manager</a> <a id="myBtn2" class="standardbtn">Get
 								Dedicated Team</a>
 							<br>
 							<img src="images/high.png" class="sep40 mobiful desktext">
@@ -1279,6 +1400,47 @@
 	<script src='js/jquery.min.js'></script>
 	<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+	<script>
+		// Get the modal
+		var modal = document.getElementById("myModal");
+		// Get the button that opens the modal
+		var btn = document.getElementById("myBtn");
+		var btn1 = document.getElementById("myBtn1");
+		var btn2 = document.getElementById("myBtn2");
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+console.log(span);
+		// When the user clicks the button, open the modal 
+		btn.onclick = function () {
+			modal.style.display = "block";
+		}
+		btn1.onclick = function () {
+			modal.style.display = "block";
+		}
+		btn2.onclick = function () {
+			modal.style.display = "block";
+		}
+
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function () {
+			modal.style.display = "none";
+		}
+
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function (event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+			if (event.target == modal) {
+				modal1.style.display = "none";
+			}
+		}
+	</script>
 	<script>
 		$(document).ready(function () {
 			$("#testimonial-slider").owlCarousel({
